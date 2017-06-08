@@ -32,4 +32,19 @@ a {
   margin-bottom: 30px;
   text-align: center; }
 
+#development-section {
+  background-color: #474747;
+  width: 100%;
+  height: 500px; }
+
+#development-wrapper {
+  border: 2px blue solid;
+  width: 100%;
+  height: 300px; }
+
+#dev-screenshot, #dev-details {
+  border: 2px red solid;
+  height: 300px;
+  width: 45%; }
+
 /*# sourceMappingURL=universal.css.map */
