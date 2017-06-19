@@ -1,3 +1,21 @@
+#summary-title {
+  display: block;
+  text-align: center; }
 
+#summary-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-around; }
+
+.title h2 {
+  text-align: center; }
+
+#summary-text {
+  margin-left: 50px; }
+
+#summary-text p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=development.css.map */
