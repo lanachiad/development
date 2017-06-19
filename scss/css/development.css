@@ -1,8 +1,4 @@
-#summary-title {
-  display: block;
-  text-align: center; }
-
-#summary-wrapper {
+#dev-wrapper {
   align-items: center;
   display: flex;
   justify-content: space-around; }
@@ -10,10 +6,10 @@
 .title h2 {
   text-align: center; }
 
-#summary-text {
+#dev-text {
   margin-left: 50px; }
 
-#summary-text p {
+#dev-text p {
   color: #fff;
   font-size: 20px;
   margin-bottom: 20px; }
