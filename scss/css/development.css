@@ -43,6 +43,7 @@ a {
   text-align: center; }
 
 .proj-title h3 {
+  color: #2B2118;
   font-size: 22pt; }
 
 .proj-details {
@@ -63,6 +64,13 @@ a {
       .proj-details .proj-text p:first-child {
         margin-top: 0; }
 
+.proj-lang {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px; }
+  .proj-lang img {
+    height: 50px; }
+
 .proj-links {
   display: flex;
   justify-content: space-around;
@@ -71,7 +79,7 @@ a {
     display: inline-block; }
   .proj-links .link-style {
     color: #fff;
-    background-color: #2B2118;
+    background-color: #990D35;
     border: 2px #fff solid;
     border-radius: 4px;
     font-size: 20px;
@@ -79,8 +87,8 @@ a {
     text-align: center;
     -webkit-transition: all 0.5s ease; }
     .proj-links .link-style:hover {
-      color: #2B2118;
+      color: #990D35;
       background-color: #F7F3E3;
-      border: 2px #2B2118 solid; }
+      border: 2px #990D35 solid; }
 
 /*# sourceMappingURL=development.css.map */
