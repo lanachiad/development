@@ -30,17 +30,24 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
-.section {
+.cream-bg {
   background-color: #F7F3E3; }
+
+.gray-bg {
+  background-color: #B3B6B7; }
 
 .dev-wrapper {
   margin-top: 100px; }
   .dev-wrapper:first-child {
     margin-top: 0; }
 
-.title h2 {
+.title h2, .title h3 {
   color: #2B2118;
   text-align: center; }
+.title h3 {
+  color: #2B2118;
+  font-size: 20pt;
+  margin-bottom: 30px; }
 
 .proj-title h3 {
   color: #2B2118;
@@ -57,6 +64,7 @@ a {
     display: inline-block;
     width: 45%; }
     .proj-details .proj-image img {
+      border: 2px #2B2118 solid;
       width: 100%; }
   .proj-details .proj-text {
     display: inline-block;
@@ -80,18 +88,23 @@ a {
   margin-top: 60px; }
   .proj-links .web-link .git-link {
     display: inline-block; }
-  .proj-links .link-style {
-    color: #fff;
-    background-color: #990D35;
-    border: 2px #fff solid;
-    border-radius: 4px;
-    font-size: 20px;
-    padding: 20px 40px;
-    text-align: center;
-    -webkit-transition: all 0.5s ease; }
-    .proj-links .link-style:hover {
-      color: #990D35;
-      background-color: #F7F3E3;
-      border: 2px #990D35 solid; }
+
+.link-style {
+  color: #fff;
+  background-color: #990D35;
+  border: 2px #fff solid;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease; }
+  .link-style:hover {
+    color: #990D35;
+    background-color: transparent;
+    border: 2px #990D35 solid; }
+
+.proj-git-links {
+  display: flex;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=development.css.map */
