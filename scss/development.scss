@@ -4,10 +4,12 @@
   background-color: $second-block-color;
 }
 
-#dev-wrapper {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
+.dev-wrapper {
+  margin-top: 100px;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .title h2 {
@@ -20,6 +22,10 @@
     color: $primary-color;
     font-size: 22pt;
   }
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .proj-details {
