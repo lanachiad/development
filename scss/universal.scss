@@ -3,41 +3,8 @@ $text-font: 'Montserrat', sans-serif;
 $primary-color: #2B2118; //dark brown 
 $action-color: #990D35; //wine
 $accent-color: #AF9164; //beige
-
-@mixin transition($transition...) {
-    -moz-transition:    $transition;
-    -o-transition:      $transition;
-    -webkit-transition: $transition;
-    transition:         $transition;
-}
-
-@mixin transition-property($property...) {
-    -moz-transition-property:    $property;
-    -o-transition-property:      $property;
-    -webkit-transition-property: $property;
-    transition-property:         $property;
-}
-
-@mixin transition-duration($duration...) {
-    -moz-transition-property:    $duration;
-    -o-transition-property:      $duration;
-    -webkit-transition-property: $duration;
-    transition-property:         $duration;
-}
-
-@mixin transition-timing-function($timing...) {
-    -moz-transition-timing-function:    $timing;
-    -o-transition-timing-function:      $timing;
-    -webkit-transition-timing-function: $timing;
-    transition-timing-function:         $timing;
-}
-
-@mixin transition-delay($delay...) {
-    -moz-transition-delay:    $delay;
-    -o-transition-delay:      $delay;
-    -webkit-transition-delay: $delay;
-    transition-delay:         $delay;
-}
+$first-block-color: #B3B6B7; //gray
+$second-block-color: #F7F3E3; //cream
 
 * {
 	margin: 0;
@@ -70,7 +37,6 @@ a {
 }
 
 .section {
-    background-color: $accent-color;
     padding: 30px 0;
     width: 100%;
 }
