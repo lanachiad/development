@@ -3,10 +3,10 @@
   padding: 0; }
 
 body {
-  background-color: #FFFAFA; }
+  background-color: #E4FDE1; }
 
 h1, h2, h3, h4 {
-  font-family: "Yellowtail", cursive; }
+  font-family: "Courgette", cursive; }
 
 p, a, ol, ul, li, span, button {
   font-family: "Montserrat", sans-serif; }
@@ -26,15 +26,15 @@ a {
   width: 100%; }
 
 .title h2 {
-  color: #990D35;
+  color: #F45B69;
   font-size: 40px;
   margin-bottom: 30px; }
 
 .cream-bg {
-  background-color: #F7F3E3; }
+  background-color: #114B5F; }
 
 .gray-bg {
-  background-color: #B3B6B7; }
+  background-color: #456990; }
 
 .dev-wrapper {
   margin-top: 100px; }
@@ -42,15 +42,15 @@ a {
     margin-top: 0; }
 
 .title h2, .title h3 {
-  color: #2B2118;
+  color: #6B2737;
   text-align: center; }
 .title h3 {
-  color: #2B2118;
+  color: #6B2737;
   font-size: 20pt;
   margin-bottom: 30px; }
 
 .proj-title h3 {
-  color: #2B2118;
+  color: #fff;
   font-size: 22pt; }
 
 .reverse {
@@ -64,12 +64,13 @@ a {
     display: inline-block;
     width: 45%; }
     .proj-details .proj-image img {
-      border: 2px #2B2118 solid;
+      border: 2px #6B2737 solid;
       width: 100%; }
   .proj-details .proj-text {
     display: inline-block;
     width: 45%; }
     .proj-details .proj-text p {
+      color: #E4FDE1;
       font-size: 13pt;
       margin-top: 20px; }
       .proj-details .proj-text p:first-child {
@@ -91,7 +92,7 @@ a {
 
 .link-style {
   color: #fff;
-  background-color: #990D35;
+  background-color: #F45B69;
   border: 2px #fff solid;
   border-radius: 4px;
   font-size: 20px;
@@ -99,9 +100,9 @@ a {
   text-align: center;
   -webkit-transition: all 0.5s ease; }
   .link-style:hover {
-    color: #990D35;
+    color: #F45B69;
     background-color: transparent;
-    border: 2px #990D35 solid; }
+    border: 2px #F45B69 solid; }
 
 .proj-git-links {
   display: flex;
