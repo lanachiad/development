@@ -1,5 +1,9 @@
 @import 'universal';
 
+.section {
+  background-color: $action-color;
+}
+
 .cream-bg {
   background-color: $second-block-color;
 }
@@ -18,12 +22,11 @@
 
 .title {
   h2, h3 {
-    color: $primary-color;
+    color: #fff;
     text-align: center;
   }
 
   h3 {
-    color: $primary-color;
     font-size: 20pt;
     margin-bottom: 30px;
   }

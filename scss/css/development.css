@@ -30,6 +30,9 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+.section {
+  background-color: #F45B69; }
+
 .cream-bg {
   background-color: #114B5F; }
 
@@ -42,10 +45,9 @@ a {
     margin-top: 0; }
 
 .title h2, .title h3 {
-  color: #6B2737;
+  color: #fff;
   text-align: center; }
 .title h3 {
-  color: #6B2737;
   font-size: 20pt;
   margin-bottom: 30px; }
 
