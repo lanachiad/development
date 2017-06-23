@@ -136,3 +136,32 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 1099px) {
+  .proj-details {
+    display: block;
+
+    .proj-image {
+      width: 100%;
+    }
+
+    .proj-text {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .proj-links {
+    display: block;
+  }
+
+  .link-style {
+    display: block;
+
+    &:last-child {
+      margin-top: 25px;
+    }
+  }
+}

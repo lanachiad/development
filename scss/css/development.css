@@ -133,4 +133,21 @@ a {
   display: flex;
   justify-content: space-around; }
 
+@media screen and (max-width: 1099px) {
+  .proj-details {
+    display: block; }
+    .proj-details .proj-image {
+      width: 100%; }
+    .proj-details .proj-text {
+      margin-top: 25px;
+      width: 100%; } }
+@media screen and (max-width: 599px) {
+  .proj-links {
+    display: block; }
+
+  .link-style {
+    display: block; }
+    .link-style:last-child {
+      margin-top: 25px; } }
+
 /*# sourceMappingURL=development.css.map */
