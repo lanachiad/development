@@ -30,6 +30,12 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+@media screen and (max-width: 654px) {
+  .title h2 {
+    font-size: 35px; } }
+@media screen and (max-width: 464px) {
+  .container {
+    margin: 25px 50px; } }
 .section {
   background-color: #F45B69; }
 
@@ -126,5 +132,22 @@ a {
 .proj-git-links {
   display: flex;
   justify-content: space-around; }
+
+@media screen and (max-width: 1099px) {
+  .proj-details {
+    display: block; }
+    .proj-details .proj-image {
+      width: 100%; }
+    .proj-details .proj-text {
+      margin-top: 25px;
+      width: 100%; } }
+@media screen and (max-width: 599px) {
+  .proj-links {
+    display: block; }
+
+  .link-style {
+    display: block; }
+    .link-style:last-child {
+      margin-top: 25px; } }
 
 /*# sourceMappingURL=development.css.map */
